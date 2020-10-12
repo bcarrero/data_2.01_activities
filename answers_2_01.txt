@@ -1,0 +1,38 @@
+2.01 Activity 1
+
+Think of all the types of data that a tech company (Amazon, Twitter, etc.) needs to store and analyze.
+	=> customer data: relation
+	=> product data
+	=> content of messages
+
+    Which technologies do you think they use for each type?
+
+    Do they use a single database or many?
+	=> many
+
+2.01 Activity 2
+
+Name 3 advantages of relational databases over file or spreadsheet data storage.
+=> structure
+=> non duplicity
+=> reduction of errors due to the definition of an input mask (values that are possible)
+=> faster for CRUD operations
+
+2.01 Activity 3
+
+Refer to the files_for_activities/case_study_bank.md file.
+
+    Brainstorm on some questions that would be interesting to extract from the information available.
+
+2.01 Activity 4
+
+Refer to files_for_activities/mysql_dump.sql database. Load it to Sequel Pro, and there you will find a bank database which we will use for the following exercise. This is the same database used for the class example. Keep using the bank database for iterations that are related to it (3 and 4).
+
+    The select statement is used as a print command in SQL. Use the select statement to print "Hello World".
+    Use the select statement to perform a simple mathematical calculation to add two numbers.
+    Get a list of card types.
+=> SELECT distinct type FROM card;
+=> classic, junior, gold
+    Get a list with the name of districts.
+=> SELECT distinct A3 FROM district;
+
